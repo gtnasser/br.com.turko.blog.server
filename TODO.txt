@@ -2,9 +2,42 @@
 
 https://www.digitalocean.com/community/tutorials/how-to-build-a-rate-limiter-with-node-js-on-app-platform
 
+/*
+    app.get("/teste", (req, res, next) => {
+        const resp = {
+            Errors: [],
+            Total: 6,
 
+            Vendas: [
+                { Data: '03/09/2019', ValorVenda: 35.98, Cupons: [ 
+                    { Filial: 586, Caixa: 52, QtdCupons: 2 }, 
+                    { Filial: 532, Caixa: 85, QtdCupons: 0 } ] 
+                },
+                { Data: '12/09/2019', ValorVenda: 35.98, Cupons: [ 
+                    { Filial: 586, Caixa: 52, QtdCupons: 5 }, 
+                    { Filial: 532, Caixa: 85, QtdCupons: 0 } ] 
+                },
+                { Data: '23/09/2019', ValorVenda: 35.98, Cupons: [ 
+                    { Filial: 586, Caixa: 52, QtdCupons: 9 }, 
+                    { Filial: 532, Caixa: 85, QtdCupons: 0 } ] 
+                },
+                { Data: '24/09/2019', ValorVenda: 35.98, Cupons: [ 
+                    { Filial: 586, Caixa: 52, QtdCupons: 8 }, 
+                    { Filial: 532, Caixa: 85, QtdCupons: 7 } ] 
+                },
+                { Data: '25/09/2019', ValorVenda: 35.98, Cupons: [ 
+                    { Filial: 586, Caixa: 52, QtdCupons: 16 }, 
+                    { Filial: 532, Caixa: 85, QtdCupons: 12 } ] 
+                },
+                { Data: '26/09/2019', ValorVenda: 35.98, Cupons: [ 
+                    { Filial: 586, Caixa: 52, QtdCupons: 0 }, 
+                    { Filial: 532, Caixa: 85, QtdCupons: 14 } ] 
+                },
 
-// TODO:
-//app.listen(process.env.PORT || 3000, () => {
-//    console.log(`Example app is listening on port ${process.env.PORT || 3000}`);
-//});
+            ],
+
+        };
+    res.json(resp);
+    });
+*/
+
